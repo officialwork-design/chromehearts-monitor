@@ -2,14 +2,11 @@ name: Schedule Healthcheck
 
 on:
   schedule:
-    - cron: '*/3 * * * *'
+    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 permissions:
   contents: read
-
-env:
-  TZ: Asia/Tokyo
 
 jobs:
   healthcheck:
@@ -20,5 +17,4 @@ jobs:
       - name: Print schedule heartbeat
         run: |
           echo "Schedule healthcheck fired."
-          echo "GitHub event: ${{ github.event_name }}"
-          date
+          date -u
