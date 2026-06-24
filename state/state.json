@@ -1,8 +1,86 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": null,
-  "snapshot": null,
-  "lastDiff": null,
+  "updatedAt": "2026-06-24 11:13:35",
+  "snapshot": {
+    "checkedAt": "2026-06-24 11:13:35",
+    "title": "Chrome Hearts",
+    "url": "https://www.chromehearts.com/",
+    "links": [
+      "(no text) => https://instagram.com/chromeheartsofficial/",
+      "(no text) => https://www.chromehearts.com/",
+      "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting => https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+      "Asia => https://www.chromehearts.com/#",
+      "Baccarat => https://www.chromehearts.com/baccarat",
+      "BAG 0 => https://www.chromehearts.com/cart",
+      "Beijing => https://www.chromehearts.com/#",
+      "BOXERS & LEGGINGS => https://www.chromehearts.com/boxers-leggings",
+      "CA SUPPLY CHAIN ACT => https://www.chromehearts.com/disclosure.html",
+      "Chengdu => https://www.chromehearts.com/#",
+      "CONTACT => https://www.chromehearts.com/contact",
+      "Europe => https://www.chromehearts.com/#",
+      "GENERAL => https://www.chromehearts.com/general.html",
+      "Hangzhou => https://www.chromehearts.com/#",
+      "Hat => https://www.chromehearts.com/hat",
+      "Hong Kong => https://www.chromehearts.com/#",
+      "INTIMATES => https://www.chromehearts.com/intimates",
+      "Japan => https://www.chromehearts.com/#",
+      "Korea => https://www.chromehearts.com/#",
+      "LOCATIONS => https://www.chromehearts.com/locations.html",
+      "LOGIN => https://www.chromehearts.com/login",
+      "MAGAZINE => https://www.chromehearts.com/magazine.html",
+      "PRIVACY => https://www.chromehearts.com/privacy.html",
+      "Scents => https://www.chromehearts.com/scents",
+      "Shop => javascript:void(0);",
+      "Skip to footer content => https://www.chromehearts.com/#footercontent",
+      "Skip to main content => https://www.chromehearts.com/#maincontent",
+      "Socks => https://www.chromehearts.com/socks",
+      "Taipei => https://www.chromehearts.com/#",
+      "TERMS => https://www.chromehearts.com/terms.html",
+      "THE AMERICAS => https://www.chromehearts.com/#",
+      "Underwear => javascript:void(0);"
+    ],
+    "images": [
+      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dw0eee263d/images/y-all-are-welcome@2x.png"
+    ],
+    "buttons": [
+      "×",
+      "Baccarat",
+      "BOXERS & LEGGINGS",
+      "Hat",
+      "INTIMATES",
+      "LOGIN",
+      "Scents",
+      "Shop",
+      "Socks",
+      "Underwear"
+    ],
+    "headings": [
+      "Authorized Retailers"
+    ],
+    "importantText": [
+      "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
+    ],
+    "htmlHash": "9aabae18a787ed89f925b78c7eea00848e9d398f3f5a8b98df41968783cb871a",
+    "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
+    "aggregateHash": "14845fd3347f609a11b3133fe2d088b14c89bda34abd136c0a4f439e361080de"
+  },
+  "lastDiff": {
+    "hasChanged": false,
+    "reason": "INITIAL_BASELINE",
+    "addedLinks": [],
+    "removedLinks": [],
+    "addedImages": [],
+    "removedImages": [],
+    "addedButtons": [],
+    "removedButtons": [],
+    "addedHeadings": [],
+    "removedHeadings": [],
+    "addedImportantText": [],
+    "removedImportantText": [],
+    "htmlChanged": false,
+    "screenshotChanged": false,
+    "summary": "Initial baseline saved."
+  },
   "lastNotificationAt": null
 }
