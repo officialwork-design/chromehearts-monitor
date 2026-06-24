@@ -2,7 +2,7 @@ name: Chrome Hearts Monitor
 
 on:
   schedule:
-    - cron: '*/15 * * * *'
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
     inputs:
       force_notify:
@@ -44,25 +44,25 @@ jobs:
         run: npm install
 
       - name: Install Playwright Chromium
-        if: ${{ github.event.inputs.force_notify != 'true' }}
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.force_notify != 'true' }}
         run: npx playwright install --with-deps chromium
 
       - name: Run LINE test notification
-        if: ${{ github.event.inputs.force_notify == 'true' }}
+        if: ${{ github.event_name == 'workflow_dispatch' && github.event.inputs.force_notify == 'true' }}
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
         run: node src/line-test.js
 
       - name: Run monitor
-        if: ${{ github.event.inputs.force_notify != 'true' }}
+        if: ${{ github.event_name != 'workflow_dispatch' || github.event.inputs.force_notify != 'true' }}
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
         run: npm run monitor
 
       - name: Commit monitor state
-        if: ${{ always() && github.event.inputs.force_notify != 'true' }}
+        if: ${{ always() && (github.event_name != 'workflow_dispatch' || github.event.inputs.force_notify != 'true') }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
