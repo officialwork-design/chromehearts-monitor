@@ -4,6 +4,15 @@ on:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
+    inputs:
+      force_notify:
+        description: 'Send a LINE test notification even when there is no site change'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'false'
+          - 'true'
 
 concurrency:
   group: chromehearts-monitor
@@ -41,6 +50,7 @@ jobs:
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+          FORCE_NOTIFY: ${{ github.event.inputs.force_notify || 'false' }}
         run: npm run monitor
 
       - name: Commit monitor state
