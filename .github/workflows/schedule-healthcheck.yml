@@ -1,0 +1,24 @@
+name: Schedule Healthcheck
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  healthcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+
+    steps:
+      - name: Print schedule heartbeat
+        run: |
+          echo "Schedule healthcheck fired."
+          echo "GitHub event: ${{ github.event_name }}"
+          date
