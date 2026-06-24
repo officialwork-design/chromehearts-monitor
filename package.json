@@ -1,0 +1,15 @@
+{
+  "name": "chromehearts-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chrome Hearts official website monitor with Playwright and LINE notification.",
+  "type": "module",
+  "scripts": {
+    "monitor": "node src/monitor.js",
+    "test:syntax": "node --check src/monitor.js"
+  },
+  "dependencies": {
+    "@playwright/test": "^1.49.1"
+  },
+  "devDependencies": {}
+}
