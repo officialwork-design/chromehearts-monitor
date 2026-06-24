@@ -2,7 +2,7 @@ name: Chrome Hearts Monitor
 
 on:
   schedule:
-    - cron: '7,22,37,52 * * * *'
+    - cron: '50 * * * *'
   workflow_dispatch:
     inputs:
       force_notify:
