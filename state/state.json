@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-06-28 23:47:53",
+  "updatedAt": "2026-06-28 23:52:54",
   "snapshot": {
-    "checkedAt": "2026-06-28 23:47:53",
+    "checkedAt": "2026-06-28 23:52:54",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -64,8 +64,8 @@
     "aggregateHash": "b88e68691566058b6cfe3c250731afd5498898cb371338df3b998325ac995c36"
   },
   "lastDiff": {
-    "hasChanged": true,
-    "reason": "CHANGED",
+    "hasChanged": false,
+    "reason": "NO_CHANGE",
     "addedLinks": [],
     "removedLinks": [],
     "addedImages": [],
@@ -76,9 +76,9 @@
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": true,
+    "htmlChanged": false,
     "screenshotChanged": false,
-    "summary": "html changed"
+    "summary": "No change."
   },
   "lastNotificationAt": "2026-06-28 23:47:53"
 }
