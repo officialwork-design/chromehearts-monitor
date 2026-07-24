@@ -32,16 +32,20 @@ const CONFIG = {
     /New window/i
   ],
   // アクセス遮断検知: bot対策・エラーページの兆候。検知したら「変化なし」ではなくエラーとして通知する。
+  // 注意: 目に見えるテキスト（title + bodyText）のみを対象にする。HTML全体を対象にすると
+  //       reCAPTCHAライブラリ等に含まれる "captcha" などに誤反応するため。
+  //       単語単体（captcha 等）ではなく、遮断ページ特有のフレーズだけを使う。
   blockSignals: [
     /access denied/i,
-    /attention required/i,
-    /just a moment/i,
+    /attention required/i,          // Cloudflare
+    /checking your browser/i,       // Cloudflare
+    /just a moment\.\.\./i,         // Cloudflare
     /verify you are (a )?human/i,
-    /are you a human/i,
-    /captcha/i,
-    /cf-browser-verification/i,
+    /unusual traffic/i,
     /request blocked/i,
-    /403 forbidden/i
+    /you have been blocked/i,
+    /pardon our interruption/i,     // HUMAN/PerimeterX
+    /please enable (cookies|javascript) to continue/i
   ],
   // 本文がこの文字数未満なら、正常に読み込めていない（遮断の）可能性が高いとみなす。
   minBodyTextLength: 120
@@ -404,8 +408,9 @@ function assertNotBlocked({ status, title, bodyText, html }) {
     );
   }
 
+  // 目に見えるテキストのみを対象にする（HTML全体はスキャンしない）。
   const haystack = `${title || ''}\n${bodyText || ''}`;
-  const hit = CONFIG.blockSignals.find((re) => re.test(haystack) || re.test(html || ''));
+  const hit = CONFIG.blockSignals.find((re) => re.test(haystack));
   if (hit) {
     throw new Error(
       `アクセス遮断の可能性: ページ内容にbot対策/エラーの兆候（${hit}）を検知しました。`
