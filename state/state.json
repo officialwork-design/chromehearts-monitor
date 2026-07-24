@@ -1,15 +1,14 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-07-24 15:10:39",
+  "updatedAt": "2026-07-24 15:48:38",
   "snapshot": {
-    "checkedAt": "2026-07-24 15:10:39",
+    "checkedAt": "2026-07-24 15:48:38",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
       "(no text) => https://instagram.com/chromeheartsofficial/",
       "(no text) => https://www.chromehearts.com/",
-      "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window => https://accessibe.com/blog/knowledgebase/screen-reader-guide",
       "Asia => https://www.chromehearts.com/#",
       "Baccarat => https://www.chromehearts.com/baccarat",
       "BAG 0 => https://www.chromehearts.com/cart",
@@ -59,38 +58,32 @@
       "Authorized Retailers"
     ],
     "importantText": [
-      "bility Screen-Reader Guide, Feedback, and Issue Reporting | New window Skip to main content Skip to footer content LOGIN /",
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "bf2c7c94f0613384d66413cc69a49177e237f19b7f26910748bb98f918621d63",
+    "htmlHash": "42d90e089e045967ae9c2d87a8c40bb309dcb1a246dbfd8ba6055c9e5c24f06c",
     "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "7e5544009346d3ef479e5e807d1f436bdbe32268b8e8f7397e9ac4755eff08df"
+    "aggregateHash": "552d734875c420f072047aa3be008ed22495f18aadde1d3b53df8cdc0214d8dc"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
-    "addedLinks": [
-      "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window => https://accessibe.com/blog/knowledgebase/screen-reader-guide",
-      "Eyewear => https://www.chromehearts.com/eyewear"
-    ],
+    "addedLinks": [],
     "removedLinks": [
-      "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting => https://accessibe.com/blog/knowledgebase/screen-reader-guide"
+      "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window => https://accessibe.com/blog/knowledgebase/screen-reader-guide"
     ],
     "addedImages": [],
     "removedImages": [],
-    "addedButtons": [
-      "Eyewear"
-    ],
+    "addedButtons": [],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
-    "addedImportantText": [
+    "addedImportantText": [],
+    "removedImportantText": [
       "bility Screen-Reader Guide, Feedback, and Issue Reporting | New window Skip to main content Skip to footer content LOGIN /"
     ],
-    "removedImportantText": [],
     "htmlChanged": true,
     "screenshotChanged": false,
-    "summary": "links +2/-1 / buttons +1/-0 / texts +1/-0 / html changed"
+    "summary": "links +0/-1 / texts +0/-1 / html changed"
   },
-  "lastNotificationAt": "2026-07-24 15:10:39"
+  "lastNotificationAt": "2026-07-24 15:48:38"
 }
