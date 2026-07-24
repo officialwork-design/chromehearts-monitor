@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-07-24 15:48:38",
+  "updatedAt": "2026-07-24 16:48:47",
   "snapshot": {
-    "checkedAt": "2026-07-24 15:48:38",
+    "checkedAt": "2026-07-24 16:48:47",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -65,12 +65,10 @@
     "aggregateHash": "552d734875c420f072047aa3be008ed22495f18aadde1d3b53df8cdc0214d8dc"
   },
   "lastDiff": {
-    "hasChanged": true,
-    "reason": "CHANGED",
+    "hasChanged": false,
+    "reason": "NO_CHANGE",
     "addedLinks": [],
-    "removedLinks": [
-      "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window => https://accessibe.com/blog/knowledgebase/screen-reader-guide"
-    ],
+    "removedLinks": [],
     "addedImages": [],
     "removedImages": [],
     "addedButtons": [],
@@ -78,12 +76,10 @@
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
-    "removedImportantText": [
-      "bility Screen-Reader Guide, Feedback, and Issue Reporting | New window Skip to main content Skip to footer content LOGIN /"
-    ],
-    "htmlChanged": true,
+    "removedImportantText": [],
+    "htmlChanged": false,
     "screenshotChanged": false,
-    "summary": "links +0/-1 / texts +0/-1 / html changed"
+    "summary": "No change."
   },
   "lastNotificationAt": "2026-07-24 15:48:38"
 }
