@@ -51,7 +51,7 @@ const CONFIG = {
   minBodyTextLength: 120
 };
 
-const REQUIRED_ENV = ['LINE_CHANNEL_ACCESS_TOKEN', 'LINE_USER_ID'];
+const REQUIRED_ENV = ['LINE_CHANNEL_ACCESS_TOKEN'];
 
 async function main() {
   validateEnv();
@@ -92,6 +92,23 @@ function validateEnv() {
   if (missing.length > 0) {
     throw new Error(`Missing required environment variables: ${missing.join(', ')}`);
   }
+  if (getRecipients().length === 0) {
+    throw new Error(
+      '通知先が未設定です。LINE_USER_IDS（カンマ区切りで複数可）または LINE_USER_ID を設定してください。'
+    );
+  }
+}
+
+// 通知先のuserIdを取得する。
+// LINE_USER_IDS（カンマ/空白/改行区切りで複数）を優先し、旧来の LINE_USER_ID も後方互換で受け付ける。
+// 例: LINE_USER_IDS="Uxxxx...,Uyyyy..." で2人に送信できる。重複は自動で除去。
+function getRecipients() {
+  const raw = [process.env.LINE_USER_IDS, process.env.LINE_USER_ID].filter(Boolean).join(',');
+  const ids = raw
+    .split(/[\s,]+/)
+    .map((value) => value.trim())
+    .filter(Boolean);
+  return Array.from(new Set(ids));
 }
 
 async function captureSnapshot() {
@@ -323,16 +340,27 @@ function appendSection(lines, title, items) {
 }
 
 async function sendLineMessage(text) {
-  const response = await fetch('https://api.line.me/v2/bot/message/push', {
+  const recipients = getRecipients();
+  if (recipients.length === 0) {
+    throw new Error('LINE通知先のuserIdがありません。');
+  }
+
+  // 1人ならPush API、2人以上ならMulticast API（1回のリクエストで複数宛先へ）。
+  const isMulticast = recipients.length > 1;
+  const endpoint = isMulticast
+    ? 'https://api.line.me/v2/bot/message/multicast'
+    : 'https://api.line.me/v2/bot/message/push';
+  const payload = isMulticast
+    ? { to: recipients, messages: [{ type: 'text', text }] }
+    : { to: recipients[0], messages: [{ type: 'text', text }] };
+
+  const response = await fetch(endpoint, {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${process.env.LINE_CHANNEL_ACCESS_TOKEN}`,
       'Content-Type': 'application/json'
     },
-    body: JSON.stringify({
-      to: process.env.LINE_USER_ID,
-      messages: [{ type: 'text', text }]
-    })
+    body: JSON.stringify(payload)
   });
 
   if (!response.ok) {
@@ -459,7 +487,7 @@ async function ensureDir(dir) {
 main().catch(async (error) => {
   console.error(error);
 
-  if (process.env.LINE_CHANNEL_ACCESS_TOKEN && process.env.LINE_USER_ID) {
+  if (process.env.LINE_CHANNEL_ACCESS_TOKEN && getRecipients().length > 0) {
     try {
       await sendLineMessage([
         '【Chrome Hearts公式サイト監視エラー】',
