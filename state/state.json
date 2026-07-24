@@ -1,15 +1,15 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-07-07 15:53:01",
+  "updatedAt": "2026-07-24 15:10:39",
   "snapshot": {
-    "checkedAt": "2026-07-07 15:53:01",
+    "checkedAt": "2026-07-24 15:10:39",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
       "(no text) => https://instagram.com/chromeheartsofficial/",
       "(no text) => https://www.chromehearts.com/",
-      "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting => https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+      "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window => https://accessibe.com/blog/knowledgebase/screen-reader-guide",
       "Asia => https://www.chromehearts.com/#",
       "Baccarat => https://www.chromehearts.com/baccarat",
       "BAG 0 => https://www.chromehearts.com/cart",
@@ -19,6 +19,7 @@
       "Chengdu => https://www.chromehearts.com/#",
       "CONTACT => https://www.chromehearts.com/contact",
       "Europe => https://www.chromehearts.com/#",
+      "Eyewear => https://www.chromehearts.com/eyewear",
       "GENERAL => https://www.chromehearts.com/general.html",
       "Hangzhou => https://www.chromehearts.com/#",
       "Hong Kong => https://www.chromehearts.com/#",
@@ -46,6 +47,7 @@
       "×",
       "Baccarat",
       "BOXERS & LEGGINGS",
+      "Eyewear",
       "INTIMATES",
       "LOGIN",
       "Scents",
@@ -57,28 +59,38 @@
       "Authorized Retailers"
     ],
     "importantText": [
+      "bility Screen-Reader Guide, Feedback, and Issue Reporting | New window Skip to main content Skip to footer content LOGIN /",
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "f6c069a14b581308088d296e4f39e0122183d94815c1d74b5ce0e23b2c4e1a89",
+    "htmlHash": "bf2c7c94f0613384d66413cc69a49177e237f19b7f26910748bb98f918621d63",
     "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "c1a6cf2d7b4d76f24c46d55b44c1e46c79bef1ec19836f834f1d01516a832ee6"
+    "aggregateHash": "7e5544009346d3ef479e5e807d1f436bdbe32268b8e8f7397e9ac4755eff08df"
   },
   "lastDiff": {
-    "hasChanged": false,
-    "reason": "NO_CHANGE",
-    "addedLinks": [],
-    "removedLinks": [],
+    "hasChanged": true,
+    "reason": "CHANGED",
+    "addedLinks": [
+      "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window => https://accessibe.com/blog/knowledgebase/screen-reader-guide",
+      "Eyewear => https://www.chromehearts.com/eyewear"
+    ],
+    "removedLinks": [
+      "Accessibility Screen-Reader Guide, Feedback, and Issue Reporting => https://accessibe.com/blog/knowledgebase/screen-reader-guide"
+    ],
     "addedImages": [],
     "removedImages": [],
-    "addedButtons": [],
+    "addedButtons": [
+      "Eyewear"
+    ],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
-    "addedImportantText": [],
+    "addedImportantText": [
+      "bility Screen-Reader Guide, Feedback, and Issue Reporting | New window Skip to main content Skip to footer content LOGIN /"
+    ],
     "removedImportantText": [],
-    "htmlChanged": false,
+    "htmlChanged": true,
     "screenshotChanged": false,
-    "summary": "No change."
+    "summary": "links +2/-1 / buttons +1/-0 / texts +1/-0 / html changed"
   },
-  "lastNotificationAt": "2026-07-06 23:48:01"
+  "lastNotificationAt": "2026-07-24 15:10:39"
 }
