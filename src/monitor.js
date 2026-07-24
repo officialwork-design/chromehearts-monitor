@@ -23,7 +23,28 @@ const CONFIG = {
     '[class*="cookie" i]',
     '[id*="consent" i]',
     '[class*="consent" i]'
-  ]
+  ],
+  // 誤検知フィルタ: 毎回入れ替わる無意味な要素を通知・比較から除外する。
+  // ここに追加すれば、リンク/ボタン/見出し/重要テキスト/HTMLハッシュから取り除かれる。
+  noisePatterns: [
+    /accessibe\.com/i,
+    /Screen-Reader Guide/i,
+    /New window/i
+  ],
+  // アクセス遮断検知: bot対策・エラーページの兆候。検知したら「変化なし」ではなくエラーとして通知する。
+  blockSignals: [
+    /access denied/i,
+    /attention required/i,
+    /just a moment/i,
+    /verify you are (a )?human/i,
+    /are you a human/i,
+    /captcha/i,
+    /cf-browser-verification/i,
+    /request blocked/i,
+    /403 forbidden/i
+  ],
+  // 本文がこの文字数未満なら、正常に読み込めていない（遮断の）可能性が高いとみなす。
+  minBodyTextLength: 120
 };
 
 const REQUIRED_ENV = ['LINE_CHANNEL_ACCESS_TOKEN', 'LINE_USER_ID'];
@@ -79,7 +100,7 @@ async function captureSnapshot() {
   });
 
   try {
-    await page.goto(CONFIG.targetUrl, {
+    const navResponse = await page.goto(CONFIG.targetUrl, {
       waitUntil: 'networkidle',
       timeout: CONFIG.timeoutMs
     });
@@ -135,6 +156,13 @@ async function captureSnapshot() {
       return { links, images, buttons, headings, bodyText, html };
     }, CONFIG.selectorsToIgnore);
 
+    assertNotBlocked({
+      status: navResponse ? navResponse.status() : 0,
+      title,
+      bodyText: data.bodyText,
+      html: data.html
+    });
+
     const screenshotBuffer = await page.screenshot({ fullPage: true });
     await ensureDir(path.dirname(CONFIG.screenshotPath));
     await fs.writeFile(CONFIG.screenshotPath, screenshotBuffer);
@@ -142,12 +170,12 @@ async function captureSnapshot() {
     const normalized = {
       title,
       url,
-      links: uniqueSorted(data.links),
+      links: stripNoise(uniqueSorted(data.links)),
       images: uniqueSorted(data.images),
-      buttons: uniqueSorted(data.buttons),
-      headings: uniqueSorted(data.headings),
-      importantText: extractImportantText(data.bodyText),
-      htmlHash: sha256(data.html),
+      buttons: stripNoise(uniqueSorted(data.buttons)),
+      headings: stripNoise(uniqueSorted(data.headings)),
+      importantText: stripNoise(extractImportantText(data.bodyText)),
+      htmlHash: sha256(stripNoiseFromText(data.html)),
       screenshotHash: sha256(screenshotBuffer.toString('base64'))
     };
 
@@ -349,6 +377,47 @@ function extractImportantText(bodyText) {
 function arrayDiff(a = [], b = []) {
   const bSet = new Set(b);
   return a.filter((item) => !bSet.has(item));
+}
+
+// 誤検知フィルタ: noisePatterns にマッチする項目を配列から除外する。
+function stripNoise(items = []) {
+  return items.filter((item) => !CONFIG.noisePatterns.some((re) => re.test(item)));
+}
+
+// 誤検知フィルタ（文字列版）: HTMLハッシュ計算前に、毎回変動する文字列を取り除く。
+function stripNoiseFromText(text) {
+  let out = String(text);
+  for (const re of CONFIG.noisePatterns) {
+    const flags = re.flags.includes('g') ? re.flags : `${re.flags}g`;
+    out = out.replace(new RegExp(re.source, flags), ' ');
+  }
+  return out.replace(/\s+/g, ' ').trim();
+}
+
+// アクセス遮断検知: bot対策・エラーページ・空ページを検知したら例外を投げる。
+// 例外は main() の catch で捕捉され、「監視エラー」としてLINE通知される。
+// これにより、遮断されたのに「変化なし」と誤認するのを防ぐ。
+function assertNotBlocked({ status, title, bodyText, html }) {
+  if (status && (status === 401 || status === 403 || status === 429 || status >= 500)) {
+    throw new Error(
+      `アクセス遮断の可能性: HTTP ${status} が返されました。bot対策またはサーバ側制限の可能性があります。`
+    );
+  }
+
+  const haystack = `${title || ''}\n${bodyText || ''}`;
+  const hit = CONFIG.blockSignals.find((re) => re.test(haystack) || re.test(html || ''));
+  if (hit) {
+    throw new Error(
+      `アクセス遮断の可能性: ページ内容にbot対策/エラーの兆候（${hit}）を検知しました。`
+    );
+  }
+
+  const length = bodyText ? bodyText.length : 0;
+  if (length < CONFIG.minBodyTextLength) {
+    throw new Error(
+      `アクセス遮断の可能性: 本文が短すぎます（${length}文字 < ${CONFIG.minBodyTextLength}）。正常に読み込めていない可能性があります。`
+    );
+  }
 }
 
 function uniqueSorted(values = []) {
