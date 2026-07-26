@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-07-26 10:18:14",
+  "updatedAt": "2026-07-26 14:15:35",
   "snapshot": {
-    "checkedAt": "2026-07-26 10:18:14",
+    "checkedAt": "2026-07-26 14:15:35",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -63,25 +63,21 @@
     "aggregateHash": "a973aff956ffa4c560a421548b87e4fd1d7c2fdc67e3e5b9099641bf34e97687"
   },
   "lastDiff": {
-    "hasChanged": true,
-    "reason": "CHANGED",
+    "hasChanged": false,
+    "reason": "NO_CHANGE",
     "addedLinks": [],
-    "removedLinks": [
-      "Eyewear => https://www.chromehearts.com/eyewear"
-    ],
+    "removedLinks": [],
     "addedImages": [],
     "removedImages": [],
     "addedButtons": [],
-    "removedButtons": [
-      "Eyewear"
-    ],
+    "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": true,
+    "htmlChanged": false,
     "screenshotChanged": false,
-    "summary": "links +0/-1 / buttons +0/-1 / html changed"
+    "summary": "No change."
   },
   "lastNotificationAt": "2026-07-26 10:18:14"
 }
