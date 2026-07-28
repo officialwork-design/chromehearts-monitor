@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-07-29 00:07:59",
+  "updatedAt": "2026-07-29 02:13:05",
   "snapshot": {
-    "checkedAt": "2026-07-29 00:07:59",
+    "checkedAt": "2026-07-29 02:13:05",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -39,7 +39,7 @@
       "Underwear => javascript:void(0);"
     ],
     "images": [
-      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dw0eee263d/images/y-all-are-welcome@2x.png"
+      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwb04cfbb6/images/y-all-are-welcome@2x.png"
     ],
     "buttons": [
       "×",
@@ -58,17 +58,21 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "633d58d9c05f9e35044476ec9d1fc0ef46648f569f749e6a96bc7af3ddf7dd5a",
+    "htmlHash": "f1d183c1582d5c968168fe3a3813f415a5d121511b7cf4f82e40ba9d92019d06",
     "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "35c9f63e9a17a86ad1efd3604dfdc45b689c85c722c41c75e3f1af62c10e2786"
+    "aggregateHash": "0bf131e50feb75ed34f844534b2f21d4d122f1d90e3e599e08ed5a29bf7e35ca"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
     "addedLinks": [],
     "removedLinks": [],
-    "addedImages": [],
-    "removedImages": [],
+    "addedImages": [
+      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwb04cfbb6/images/y-all-are-welcome@2x.png"
+    ],
+    "removedImages": [
+      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dw0eee263d/images/y-all-are-welcome@2x.png"
+    ],
     "addedButtons": [],
     "removedButtons": [],
     "addedHeadings": [],
@@ -77,7 +81,7 @@
     "removedImportantText": [],
     "htmlChanged": true,
     "screenshotChanged": false,
-    "summary": "html changed"
+    "summary": "images +1/-1 / html changed"
   },
-  "lastNotificationAt": "2026-07-29 00:07:59"
+  "lastNotificationAt": "2026-07-29 02:13:05"
 }
