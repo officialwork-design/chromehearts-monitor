@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-07-29 02:13:05",
+  "updatedAt": "2026-07-29 03:59:08",
   "snapshot": {
-    "checkedAt": "2026-07-29 02:13:05",
+    "checkedAt": "2026-07-29 03:59:08",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -63,25 +63,21 @@
     "aggregateHash": "0bf131e50feb75ed34f844534b2f21d4d122f1d90e3e599e08ed5a29bf7e35ca"
   },
   "lastDiff": {
-    "hasChanged": true,
-    "reason": "CHANGED",
+    "hasChanged": false,
+    "reason": "NO_CHANGE",
     "addedLinks": [],
     "removedLinks": [],
-    "addedImages": [
-      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwb04cfbb6/images/y-all-are-welcome@2x.png"
-    ],
-    "removedImages": [
-      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dw0eee263d/images/y-all-are-welcome@2x.png"
-    ],
+    "addedImages": [],
+    "removedImages": [],
     "addedButtons": [],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": true,
+    "htmlChanged": false,
     "screenshotChanged": false,
-    "summary": "images +1/-1 / html changed"
+    "summary": "No change."
   },
   "lastNotificationAt": "2026-07-29 02:13:05"
 }
