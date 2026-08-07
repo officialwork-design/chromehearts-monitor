@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-08-08 02:36:35",
+  "updatedAt": "2026-08-08 03:32:59",
   "snapshot": {
-    "checkedAt": "2026-08-08 02:36:35",
+    "checkedAt": "2026-08-08 03:32:59",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -28,6 +28,7 @@
       "LOGIN => https://www.chromehearts.com/login",
       "MAGAZINE => https://www.chromehearts.com/magazine.html",
       "PRIVACY => https://www.chromehearts.com/privacy.html",
+      "scarf => https://www.chromehearts.com/scarf",
       "Scents => https://www.chromehearts.com/scents",
       "Shop => javascript:void(0);",
       "Skip to footer content => https://www.chromehearts.com/#footercontent",
@@ -47,6 +48,7 @@
       "BOXERS & LEGGINGS",
       "INTIMATES",
       "LOGIN",
+      "scarf",
       "Scents",
       "Shop",
       "Socks",
@@ -58,26 +60,30 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "6ea05a5623c1cbe80da3f139be3f22e9f70b0f78d088263f096c8ca935e82c2d",
+    "htmlHash": "21b0a36358df70f523eac7830417d08ff048296d85ed4ab5d89264d5693b7be9",
     "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "10dd584da938f8b0a3a46f063cdd6cdbad8def06fb493517e1c8d5ed52f72fc2"
+    "aggregateHash": "d22efbe1b6a53f0997d05c3959e6bdd47d41a47207138ec7ccd34776b086963a"
   },
   "lastDiff": {
-    "hasChanged": false,
-    "reason": "NO_CHANGE",
-    "addedLinks": [],
+    "hasChanged": true,
+    "reason": "CHANGED",
+    "addedLinks": [
+      "scarf => https://www.chromehearts.com/scarf"
+    ],
     "removedLinks": [],
     "addedImages": [],
     "removedImages": [],
-    "addedButtons": [],
+    "addedButtons": [
+      "scarf"
+    ],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": false,
+    "htmlChanged": true,
     "screenshotChanged": false,
-    "summary": "No change."
+    "summary": "links +1/-0 / buttons +1/-0 / html changed"
   },
-  "lastNotificationAt": "2026-08-08 01:36:47"
+  "lastNotificationAt": "2026-08-08 03:32:59"
 }
