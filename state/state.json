@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-08-29 23:43:03",
+  "updatedAt": "2026-08-30 02:55:59",
   "snapshot": {
-    "checkedAt": "2026-08-29 23:43:03",
+    "checkedAt": "2026-08-30 02:55:59",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -60,13 +60,13 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "7e1d07fc457f65ee055fe2e3e907ea1c9e1b758b799e9e0adae70ac16cff3c27",
+    "htmlHash": "42cf0fa85ed7c3eda6bc18d3338876791f22693347821282631e5a83b5fed5ce",
     "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "1ead0181f6f17e06a3e6c95beb63c4b228d7849276ca76dc6144d559ca84dad8"
+    "aggregateHash": "446b07e8f3787c80737344c1f0b9358ae7c35b9f7e3a81d417f68333a50ccd4d"
   },
   "lastDiff": {
-    "hasChanged": false,
-    "reason": "NO_CHANGE",
+    "hasChanged": true,
+    "reason": "CHANGED",
     "addedLinks": [],
     "removedLinks": [],
     "addedImages": [],
@@ -77,9 +77,9 @@
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": false,
+    "htmlChanged": true,
     "screenshotChanged": false,
-    "summary": "No change."
+    "summary": "html changed"
   },
-  "lastNotificationAt": "2026-08-29 04:36:54"
+  "lastNotificationAt": "2026-08-30 02:55:59"
 }
