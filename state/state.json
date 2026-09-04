@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-09-05 06:04:34",
+  "updatedAt": "2026-09-05 08:24:39",
   "snapshot": {
-    "checkedAt": "2026-09-05 06:04:34",
+    "checkedAt": "2026-09-05 08:24:39",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -58,15 +58,15 @@
       "Authorized Retailers"
     ],
     "importantText": [
-      "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
+      "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT CA © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "36d30a7d99d0de32c758347079173cc1fe71cbd761d5d3bd04e54457d69c856d",
-    "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "49ad01b933f59fabeff5cc2cf21462ed2f822dd8916f467da21c982ec4bb81d5"
+    "htmlHash": "4a5e328a342ab7a4ba5baf8f09af8c007d53de94526ed0c5f5b65da70de9a164",
+    "screenshotHash": "4baa31dac9fb9cac45167a774eff118cef47006100f627bec4a06c3d7eb3686f",
+    "aggregateHash": "ebde176b27619f91c0a950150f0ddd3a9545bb3b716b729b78ad5f4ca017edba"
   },
   "lastDiff": {
-    "hasChanged": false,
-    "reason": "NO_CHANGE",
+    "hasChanged": true,
+    "reason": "CHANGED",
     "addedLinks": [],
     "removedLinks": [],
     "addedImages": [],
@@ -75,11 +75,15 @@
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
-    "addedImportantText": [],
-    "removedImportantText": [],
-    "htmlChanged": false,
-    "screenshotChanged": false,
-    "summary": "No change."
+    "addedImportantText": [
+      "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT CA © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
+    ],
+    "removedImportantText": [
+      "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
+    ],
+    "htmlChanged": true,
+    "screenshotChanged": true,
+    "summary": "texts +1/-1 / html changed / screenshot changed"
   },
-  "lastNotificationAt": "2026-09-05 02:51:25"
+  "lastNotificationAt": "2026-09-05 08:24:39"
 }
