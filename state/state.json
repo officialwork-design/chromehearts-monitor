@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-09-11 01:42:33",
+  "updatedAt": "2026-09-11 04:18:51",
   "snapshot": {
-    "checkedAt": "2026-09-11 01:42:33",
+    "checkedAt": "2026-09-11 04:18:51",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -20,6 +20,7 @@
       "Europe => https://www.chromehearts.com/#",
       "GENERAL => https://www.chromehearts.com/general.html",
       "Hangzhou => https://www.chromehearts.com/#",
+      "Hat => https://www.chromehearts.com/hat",
       "Hong Kong => https://www.chromehearts.com/#",
       "INTIMATES => https://www.chromehearts.com/intimates",
       "Japan => https://www.chromehearts.com/#",
@@ -45,6 +46,7 @@
       "×",
       "Baccarat",
       "BOXERS & LEGGINGS",
+      "Hat",
       "INTIMATES",
       "LOGIN",
       "Scents",
@@ -58,18 +60,22 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "e975fdf15fba48838ebe0dc02860ee7a70359f06c6ac3f1af77fce7a409d53f1",
+    "htmlHash": "dbdfba29b3eb5b69b15efebe54b8092b7261906acd0c637caa0f3a47438a5f57",
     "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "a6250e167466ba849b0b5e905de49407629715711030779d954a78a03c609337"
+    "aggregateHash": "5bbe8b2c3e665d54076c9c0ea6688329ffa416f12eb6aab64ad9f28aad921c06"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
-    "addedLinks": [],
+    "addedLinks": [
+      "Hat => https://www.chromehearts.com/hat"
+    ],
     "removedLinks": [],
     "addedImages": [],
     "removedImages": [],
-    "addedButtons": [],
+    "addedButtons": [
+      "Hat"
+    ],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
@@ -77,7 +83,7 @@
     "removedImportantText": [],
     "htmlChanged": true,
     "screenshotChanged": false,
-    "summary": "html changed"
+    "summary": "links +1/-0 / buttons +1/-0 / html changed"
   },
-  "lastNotificationAt": "2026-09-11 01:42:33"
+  "lastNotificationAt": "2026-09-11 04:18:51"
 }
