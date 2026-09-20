@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-09-20 21:38:54",
+  "updatedAt": "2026-09-21 01:31:44",
   "snapshot": {
-    "checkedAt": "2026-09-20 21:38:54",
+    "checkedAt": "2026-09-21 01:31:44",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -58,9 +58,9 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "044bb201c0f629e428827b6c139a6bbc99cebae7aed079494bcb370d62c094e6",
+    "htmlHash": "40c11fe0401c982bdf8b08ed9a045d792fb25a542adb2b1dcff56ebbcaec8570",
     "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "7255de0c8d76eff7f5946169003af6c9828e40147e56e4740051722d6c748303"
+    "aggregateHash": "4689afa0a3f6d9c6b658759ef20f3160201f351d2072e7071331e613144ea5ad"
   },
   "lastDiff": {
     "hasChanged": true,
@@ -73,15 +73,11 @@
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
-    "addedImportantText": [
-      "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
-    ],
-    "removedImportantText": [
-      "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT CA © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
-    ],
+    "addedImportantText": [],
+    "removedImportantText": [],
     "htmlChanged": true,
-    "screenshotChanged": true,
-    "summary": "texts +1/-1 / html changed / screenshot changed"
+    "screenshotChanged": false,
+    "summary": "html changed"
   },
-  "lastNotificationAt": "2026-09-20 21:38:54"
+  "lastNotificationAt": "2026-09-21 01:31:44"
 }
