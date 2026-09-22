@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-09-23 04:16:55",
+  "updatedAt": "2026-09-23 07:27:11",
   "snapshot": {
-    "checkedAt": "2026-09-23 04:16:55",
+    "checkedAt": "2026-09-23 07:27:11",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -33,6 +33,7 @@
       "Skip to footer content => https://www.chromehearts.com/#footercontent",
       "Skip to main content => https://www.chromehearts.com/#maincontent",
       "Socks => https://www.chromehearts.com/socks",
+      "SWEATPANTS => https://www.chromehearts.com/on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=SWEATPANTS",
       "Taipei => https://www.chromehearts.com/#",
       "TERMS => https://www.chromehearts.com/terms.html",
       "THE AMERICAS => https://www.chromehearts.com/#",
@@ -50,6 +51,7 @@
       "Scents",
       "Shop",
       "Socks",
+      "SWEATPANTS",
       "Underwear"
     ],
     "headings": [
@@ -58,26 +60,30 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "6d7bedb3afd070171ac0ed2efeadad7147c7cf932c6cb6d0dcff095e4c0fa36a",
+    "htmlHash": "a71b66bdc43e7be045b5c1cde339ec0e7b87a9d4bd2f1aabed2c8ec0599607ed",
     "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "38cfb487d0b120f0f9c2d7b5bd6b3532efbe87d449e8104bb32738fc94ed44c4"
+    "aggregateHash": "745e8a1a95e176317d1f794e9410d4f13f983fabca32d5caef098fafabdbdbc5"
   },
   "lastDiff": {
-    "hasChanged": false,
-    "reason": "NO_CHANGE",
-    "addedLinks": [],
+    "hasChanged": true,
+    "reason": "CHANGED",
+    "addedLinks": [
+      "SWEATPANTS => https://www.chromehearts.com/on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=SWEATPANTS"
+    ],
     "removedLinks": [],
     "addedImages": [],
     "removedImages": [],
-    "addedButtons": [],
+    "addedButtons": [
+      "SWEATPANTS"
+    ],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": false,
+    "htmlChanged": true,
     "screenshotChanged": false,
-    "summary": "No change."
+    "summary": "links +1/-0 / buttons +1/-0 / html changed"
   },
-  "lastNotificationAt": "2026-09-23 00:12:03"
+  "lastNotificationAt": "2026-09-23 07:27:11"
 }
