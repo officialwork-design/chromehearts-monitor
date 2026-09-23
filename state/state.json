@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-09-23 07:27:11",
+  "updatedAt": "2026-09-23 09:58:26",
   "snapshot": {
-    "checkedAt": "2026-09-23 07:27:11",
+    "checkedAt": "2026-09-23 09:58:26",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -65,25 +65,21 @@
     "aggregateHash": "745e8a1a95e176317d1f794e9410d4f13f983fabca32d5caef098fafabdbdbc5"
   },
   "lastDiff": {
-    "hasChanged": true,
-    "reason": "CHANGED",
-    "addedLinks": [
-      "SWEATPANTS => https://www.chromehearts.com/on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=SWEATPANTS"
-    ],
+    "hasChanged": false,
+    "reason": "NO_CHANGE",
+    "addedLinks": [],
     "removedLinks": [],
     "addedImages": [],
     "removedImages": [],
-    "addedButtons": [
-      "SWEATPANTS"
-    ],
+    "addedButtons": [],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": true,
+    "htmlChanged": false,
     "screenshotChanged": false,
-    "summary": "links +1/-0 / buttons +1/-0 / html changed"
+    "summary": "No change."
   },
   "lastNotificationAt": "2026-09-23 07:27:11"
 }
