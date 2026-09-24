@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-09-25 02:35:06",
+  "updatedAt": "2026-09-25 05:48:31",
   "snapshot": {
-    "checkedAt": "2026-09-25 02:35:06",
+    "checkedAt": "2026-09-25 05:48:31",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -33,7 +33,6 @@
       "Skip to footer content => https://www.chromehearts.com/#footercontent",
       "Skip to main content => https://www.chromehearts.com/#maincontent",
       "Socks => https://www.chromehearts.com/socks",
-      "SWEATPANTS => https://www.chromehearts.com/on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=SWEATPANTS",
       "Taipei => https://www.chromehearts.com/#",
       "TERMS => https://www.chromehearts.com/terms.html",
       "THE AMERICAS => https://www.chromehearts.com/#",
@@ -51,7 +50,6 @@
       "Scents",
       "Shop",
       "Socks",
-      "SWEATPANTS",
       "Underwear"
     ],
     "headings": [
@@ -60,26 +58,30 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "6940f61008de3b4c912ae7b4f949dbf7f991f637b3aa6d8a38b910c6cc0211d1",
+    "htmlHash": "ec210672701f0e6ec0de07898ae267ed587c2400712e3284859a5ee0f7890014",
     "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "e4ee8236c948b1e86e3f8bb68c5a51a95f3f647670748db93442c50204cfe5fd"
+    "aggregateHash": "eb45e0053a485fe93ff8126264326295d88d3a93e0d7f42f88a6908ee78e3035"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
     "addedLinks": [],
-    "removedLinks": [],
+    "removedLinks": [
+      "SWEATPANTS => https://www.chromehearts.com/on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=SWEATPANTS"
+    ],
     "addedImages": [],
     "removedImages": [],
     "addedButtons": [],
-    "removedButtons": [],
+    "removedButtons": [
+      "SWEATPANTS"
+    ],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
     "htmlChanged": true,
     "screenshotChanged": false,
-    "summary": "html changed"
+    "summary": "links +0/-1 / buttons +0/-1 / html changed"
   },
-  "lastNotificationAt": "2026-09-25 02:35:06"
+  "lastNotificationAt": "2026-09-25 05:48:31"
 }
