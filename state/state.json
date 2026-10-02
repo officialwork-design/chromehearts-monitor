@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-10-02 05:40:40",
+  "updatedAt": "2026-10-02 09:16:25",
   "snapshot": {
-    "checkedAt": "2026-10-02 05:40:40",
+    "checkedAt": "2026-10-02 09:16:25",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -39,7 +39,7 @@
       "Underwear => javascript:void(0);"
     ],
     "images": [
-      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dw2f51f69d/images/y-all-are-welcome@2x.png"
+      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwfc8ef8a4/images/y-all-are-welcome@2x.png"
     ],
     "buttons": [
       "×",
@@ -58,30 +58,30 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "419158290101e2ce2ebe04fc82124414ad333b9116e222bc1dd568f481b1b750",
+    "htmlHash": "40cf27e9104ed6efbaa2960bc4f441d68fc661c40da9e3b04fcbae3b856122b0",
     "screenshotHash": "c6ab728fa6091e7a97a86018212affa8b4e1f33e8308a96381d7dc2e2bab7167",
-    "aggregateHash": "e30aed5c85d3f1168aba8695a0c903129178cccfaef2d3413679dfdc5828f770"
+    "aggregateHash": "e0443773c6fbbd9c16434e8c93ec759ce3033611bcd39a2251bbb5314217549d"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
     "addedLinks": [],
     "removedLinks": [],
-    "addedImages": [],
-    "removedImages": [],
+    "addedImages": [
+      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwfc8ef8a4/images/y-all-are-welcome@2x.png"
+    ],
+    "removedImages": [
+      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dw2f51f69d/images/y-all-are-welcome@2x.png"
+    ],
     "addedButtons": [],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
-    "addedImportantText": [
-      "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
-    ],
-    "removedImportantText": [
-      "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT CA © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
-    ],
+    "addedImportantText": [],
+    "removedImportantText": [],
     "htmlChanged": true,
-    "screenshotChanged": true,
-    "summary": "texts +1/-1 / html changed / screenshot changed"
+    "screenshotChanged": false,
+    "summary": "images +1/-1 / html changed"
   },
-  "lastNotificationAt": "2026-10-02 05:40:40"
+  "lastNotificationAt": "2026-10-02 09:16:25"
 }
