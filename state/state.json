@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-10-21 00:24:20",
+  "updatedAt": "2026-10-21 04:39:25",
   "snapshot": {
-    "checkedAt": "2026-10-21 00:24:20",
+    "checkedAt": "2026-10-21 04:39:25",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -32,6 +32,7 @@
       "Shop => javascript:void(0);",
       "Skip to footer content => https://www.chromehearts.com/#footercontent",
       "Skip to main content => https://www.chromehearts.com/#maincontent",
+      "Soap N' Water => https://www.chromehearts.com/on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=soap-n-water",
       "Socks => https://www.chromehearts.com/socks",
       "Taipei => https://www.chromehearts.com/#",
       "TERMS => https://www.chromehearts.com/terms.html",
@@ -49,6 +50,7 @@
       "LOGIN",
       "Scents",
       "Shop",
+      "Soap N' Water",
       "Socks",
       "Underwear"
     ],
@@ -58,26 +60,30 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "cda195bd35a7fa71bb6acca5506bcb4f80833374d46a881c4b8f07652c4878f1",
+    "htmlHash": "8beca42b34968d2fe7f0bbba34852f5d90f339f723662af341edb687ecfb1e3d",
     "screenshotHash": "99fe7adbf2070434e08bad430c5fae15346c40e443521bd26cf41e62239af1a3",
-    "aggregateHash": "ec04778ecde619e3956292addeea53421bc5499fd267b022a39ffb570cd0952d"
+    "aggregateHash": "e0e6c43f16b3003f8848f8cd2c1a0885a3f851856ff5ab41c7afb4c4ad0df8d7"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
-    "addedLinks": [],
+    "addedLinks": [
+      "Soap N' Water => https://www.chromehearts.com/on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=soap-n-water"
+    ],
     "removedLinks": [],
     "addedImages": [],
     "removedImages": [],
-    "addedButtons": [],
+    "addedButtons": [
+      "Soap N' Water"
+    ],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
     "htmlChanged": true,
-    "screenshotChanged": true,
-    "summary": "html changed / screenshot changed"
+    "screenshotChanged": false,
+    "summary": "links +1/-0 / buttons +1/-0 / html changed"
   },
-  "lastNotificationAt": "2026-10-21 00:24:20"
+  "lastNotificationAt": "2026-10-21 04:39:25"
 }
