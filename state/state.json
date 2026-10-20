@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-10-21 04:39:25",
+  "updatedAt": "2026-10-21 07:43:57",
   "snapshot": {
-    "checkedAt": "2026-10-21 04:39:25",
+    "checkedAt": "2026-10-21 07:43:57",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -32,7 +32,6 @@
       "Shop => javascript:void(0);",
       "Skip to footer content => https://www.chromehearts.com/#footercontent",
       "Skip to main content => https://www.chromehearts.com/#maincontent",
-      "Soap N' Water => https://www.chromehearts.com/on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=soap-n-water",
       "Socks => https://www.chromehearts.com/socks",
       "Taipei => https://www.chromehearts.com/#",
       "TERMS => https://www.chromehearts.com/terms.html",
@@ -40,7 +39,7 @@
       "Underwear => javascript:void(0);"
     ],
     "images": [
-      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwfc8ef8a4/images/y-all-are-welcome@2x.png"
+      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwa066c5eb/images/y-all-are-welcome@2x.png"
     ],
     "buttons": [
       "×",
@@ -50,7 +49,6 @@
       "LOGIN",
       "Scents",
       "Shop",
-      "Soap N' Water",
       "Socks",
       "Underwear"
     ],
@@ -60,30 +58,34 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "8beca42b34968d2fe7f0bbba34852f5d90f339f723662af341edb687ecfb1e3d",
-    "screenshotHash": "99fe7adbf2070434e08bad430c5fae15346c40e443521bd26cf41e62239af1a3",
-    "aggregateHash": "e0e6c43f16b3003f8848f8cd2c1a0885a3f851856ff5ab41c7afb4c4ad0df8d7"
+    "htmlHash": "fe0268a900cbf3ee0ae7db59962c86ce3dbcdd893c468e025475ea2b4d59fb44",
+    "screenshotHash": "9ed82ee431aa7416ab65c733474a25607bea9560006df28c19d569af97b411de",
+    "aggregateHash": "df463d1484903d1046468880c1f60d0c4624108b70378b405c0103df50db7410"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
-    "addedLinks": [
+    "addedLinks": [],
+    "removedLinks": [
       "Soap N' Water => https://www.chromehearts.com/on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=soap-n-water"
     ],
-    "removedLinks": [],
-    "addedImages": [],
-    "removedImages": [],
-    "addedButtons": [
+    "addedImages": [
+      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwa066c5eb/images/y-all-are-welcome@2x.png"
+    ],
+    "removedImages": [
+      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwfc8ef8a4/images/y-all-are-welcome@2x.png"
+    ],
+    "addedButtons": [],
+    "removedButtons": [
       "Soap N' Water"
     ],
-    "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
     "htmlChanged": true,
-    "screenshotChanged": false,
-    "summary": "links +1/-0 / buttons +1/-0 / html changed"
+    "screenshotChanged": true,
+    "summary": "links +0/-1 / images +1/-1 / buttons +0/-1 / html changed / screenshot changed"
   },
-  "lastNotificationAt": "2026-10-21 04:39:25"
+  "lastNotificationAt": "2026-10-21 07:43:57"
 }
