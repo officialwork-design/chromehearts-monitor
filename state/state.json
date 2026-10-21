@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-10-21 07:43:57",
+  "updatedAt": "2026-10-21 10:02:46",
   "snapshot": {
-    "checkedAt": "2026-10-21 07:43:57",
+    "checkedAt": "2026-10-21 10:02:46",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -63,29 +63,21 @@
     "aggregateHash": "df463d1484903d1046468880c1f60d0c4624108b70378b405c0103df50db7410"
   },
   "lastDiff": {
-    "hasChanged": true,
-    "reason": "CHANGED",
+    "hasChanged": false,
+    "reason": "NO_CHANGE",
     "addedLinks": [],
-    "removedLinks": [
-      "Soap N' Water => https://www.chromehearts.com/on/demandware.store/Sites-ChromeHearts-Site/en_US/Search-Show?cgid=soap-n-water"
-    ],
-    "addedImages": [
-      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwa066c5eb/images/y-all-are-welcome@2x.png"
-    ],
-    "removedImages": [
-      "https://www.chromehearts.com/on/demandware.static/Sites-ChromeHearts-Site/-/default/dwfc8ef8a4/images/y-all-are-welcome@2x.png"
-    ],
+    "removedLinks": [],
+    "addedImages": [],
+    "removedImages": [],
     "addedButtons": [],
-    "removedButtons": [
-      "Soap N' Water"
-    ],
+    "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": true,
-    "screenshotChanged": true,
-    "summary": "links +0/-1 / images +1/-1 / buttons +0/-1 / html changed / screenshot changed"
+    "htmlChanged": false,
+    "screenshotChanged": false,
+    "summary": "No change."
   },
   "lastNotificationAt": "2026-10-21 07:43:57"
 }
