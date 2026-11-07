@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-11-07 06:06:17",
+  "updatedAt": "2026-11-07 10:18:16",
   "snapshot": {
-    "checkedAt": "2026-11-07 06:06:17",
+    "checkedAt": "2026-11-07 10:18:16",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -63,31 +63,25 @@
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
     "htmlHash": "519e21fb1796674bb5e3700149340114c6290ca3e64b7c4c12b3bb38b24e0a3b",
-    "screenshotHash": "074b956935e3b1349e8718707d48eedc4f53895d677f2adf9b7bd18c787146b9",
-    "aggregateHash": "f82ba10bc9ab7e1dc5c261bbd4b0bf83c12746d1388720d14305446506853ffa"
+    "screenshotHash": "9ed82ee431aa7416ab65c733474a25607bea9560006df28c19d569af97b411de",
+    "aggregateHash": "eed58264a88bd130c01fb8813601269f1211fe79da44ce1012fdac7ab7b00367"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
-    "addedLinks": [
-      "scarf => https://www.chromehearts.com/scarf",
-      "Slippers => https://www.chromehearts.com/slippers"
-    ],
+    "addedLinks": [],
     "removedLinks": [],
     "addedImages": [],
     "removedImages": [],
-    "addedButtons": [
-      "scarf",
-      "Slippers"
-    ],
+    "addedButtons": [],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": true,
+    "htmlChanged": false,
     "screenshotChanged": true,
-    "summary": "links +2/-0 / buttons +2/-0 / html changed / screenshot changed"
+    "summary": "screenshot changed"
   },
-  "lastNotificationAt": "2026-11-07 06:06:17"
+  "lastNotificationAt": "2026-11-07 10:18:16"
 }
