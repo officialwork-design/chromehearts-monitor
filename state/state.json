@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-11-09 01:23:07",
+  "updatedAt": "2026-11-09 05:47:47",
   "snapshot": {
-    "checkedAt": "2026-11-09 01:23:07",
+    "checkedAt": "2026-11-09 05:47:47",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -28,12 +28,10 @@
       "LOGIN => https://www.chromehearts.com/login",
       "MAGAZINE => https://www.chromehearts.com/magazine.html",
       "PRIVACY => https://www.chromehearts.com/privacy.html",
-      "scarf => https://www.chromehearts.com/scarf",
       "Scents => https://www.chromehearts.com/scents",
       "Shop => javascript:void(0);",
       "Skip to footer content => https://www.chromehearts.com/#footercontent",
       "Skip to main content => https://www.chromehearts.com/#maincontent",
-      "Slippers => https://www.chromehearts.com/slippers",
       "Socks => https://www.chromehearts.com/socks",
       "Taipei => https://www.chromehearts.com/#",
       "TERMS => https://www.chromehearts.com/terms.html",
@@ -49,10 +47,8 @@
       "BOXERS & LEGGINGS",
       "INTIMATES",
       "LOGIN",
-      "scarf",
       "Scents",
       "Shop",
-      "Slippers",
       "Socks",
       "Underwear"
     ],
@@ -62,26 +58,32 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "acd03ce170b7a2f25c2c65633d5f39b04bacccb3a5e801fb0c210308a4f7c8c7",
-    "screenshotHash": "671c5bab5dd839c1e28efecb9b3cc7d3e9b2b58b110710c45f3ea327ab7b2650",
-    "aggregateHash": "4db81211edede9001ffbb5c50ae4c081abf447dd1f99a05d4065d549504cf8f5"
+    "htmlHash": "39ffa26f9639c00546393154146cb37d46045f7b505ebc243420a7dbc20620ca",
+    "screenshotHash": "68e3afaf66c929fed9e682ce310a75d259567bce0fc1955d5757ade600fa21d7",
+    "aggregateHash": "54acff0ebc3514aa0b8f17288e546349acf96724659842b7e6932b1419ed73ac"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
     "addedLinks": [],
-    "removedLinks": [],
+    "removedLinks": [
+      "scarf => https://www.chromehearts.com/scarf",
+      "Slippers => https://www.chromehearts.com/slippers"
+    ],
     "addedImages": [],
     "removedImages": [],
     "addedButtons": [],
-    "removedButtons": [],
+    "removedButtons": [
+      "scarf",
+      "Slippers"
+    ],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
     "htmlChanged": true,
     "screenshotChanged": true,
-    "summary": "html changed / screenshot changed"
+    "summary": "links +0/-2 / buttons +0/-2 / html changed / screenshot changed"
   },
-  "lastNotificationAt": "2026-11-09 01:23:07"
+  "lastNotificationAt": "2026-11-09 05:47:47"
 }
