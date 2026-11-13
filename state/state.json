@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-11-13 07:53:43",
+  "updatedAt": "2026-11-13 12:39:22",
   "snapshot": {
-    "checkedAt": "2026-11-13 07:53:43",
+    "checkedAt": "2026-11-13 12:39:22",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -61,29 +61,25 @@
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
     "htmlHash": "8a81ed95f19b0133ae47830c24a7869ad079ae479aa549d807b44c50f6bd868e",
-    "screenshotHash": "074b956935e3b1349e8718707d48eedc4f53895d677f2adf9b7bd18c787146b9",
-    "aggregateHash": "cbaf179622b1e2936d4e92571188b06ac116877e6d6c3993eb4aed72ea78accb"
+    "screenshotHash": "9ed82ee431aa7416ab65c733474a25607bea9560006df28c19d569af97b411de",
+    "aggregateHash": "1e6c55434ce541605cc2c4b488ac3488e3876bfcc52a8621f88d37ce5d8388ba"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
-    "addedLinks": [
-      "Eyewear => https://www.chromehearts.com/eyewear"
-    ],
+    "addedLinks": [],
     "removedLinks": [],
     "addedImages": [],
     "removedImages": [],
-    "addedButtons": [
-      "Eyewear"
-    ],
+    "addedButtons": [],
     "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": true,
+    "htmlChanged": false,
     "screenshotChanged": true,
-    "summary": "links +1/-0 / buttons +1/-0 / html changed / screenshot changed"
+    "summary": "screenshot changed"
   },
-  "lastNotificationAt": "2026-11-13 07:53:43"
+  "lastNotificationAt": "2026-11-13 12:39:22"
 }
