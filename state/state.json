@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-11-18 22:30:22",
+  "updatedAt": "2026-11-19 06:38:21",
   "snapshot": {
-    "checkedAt": "2026-11-18 22:30:22",
+    "checkedAt": "2026-11-19 06:38:21",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -21,7 +21,6 @@
       "GENERAL => https://www.chromehearts.com/general.html",
       "Hangzhou => https://www.chromehearts.com/#",
       "Hong Kong => https://www.chromehearts.com/#",
-      "Hoodie => https://www.chromehearts.com/hoodie",
       "INTIMATES => https://www.chromehearts.com/intimates",
       "Japan => https://www.chromehearts.com/#",
       "Korea => https://www.chromehearts.com/#",
@@ -46,7 +45,6 @@
       "×",
       "Baccarat",
       "BOXERS & LEGGINGS",
-      "Hoodie",
       "INTIMATES",
       "LOGIN",
       "Scents",
@@ -60,26 +58,30 @@
     "importantText": [
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
-    "htmlHash": "15ec8df360aaba618ba60e3c7b321adc29cca377f89126989d610d732e19185d",
-    "screenshotHash": "68e3afaf66c929fed9e682ce310a75d259567bce0fc1955d5757ade600fa21d7",
-    "aggregateHash": "d93efffad5baac0e5aa3791ff34c98df456907bd22557e9c5ffa803bd6237c16"
+    "htmlHash": "55bb56544136393a0232b731654de2cc62ac0a5936b75bd2ca16ef1cb53b9ab6",
+    "screenshotHash": "671c5bab5dd839c1e28efecb9b3cc7d3e9b2b58b110710c45f3ea327ab7b2650",
+    "aggregateHash": "2118bde059da9001b09d24e2f08fe6f4d2b78ded8c9907ddfe362387c174d40a"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
     "addedLinks": [],
-    "removedLinks": [],
+    "removedLinks": [
+      "Hoodie => https://www.chromehearts.com/hoodie"
+    ],
     "addedImages": [],
     "removedImages": [],
     "addedButtons": [],
-    "removedButtons": [],
+    "removedButtons": [
+      "Hoodie"
+    ],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": false,
+    "htmlChanged": true,
     "screenshotChanged": true,
-    "summary": "screenshot changed"
+    "summary": "links +0/-1 / buttons +0/-1 / html changed / screenshot changed"
   },
-  "lastNotificationAt": "2026-11-18 22:30:22"
+  "lastNotificationAt": "2026-11-19 06:38:21"
 }
