@@ -1,9 +1,9 @@
 {
   "version": 1,
   "targetUrl": "https://www.chromehearts.com/",
-  "updatedAt": "2026-11-19 06:38:21",
+  "updatedAt": "2026-11-19 11:51:03",
   "snapshot": {
-    "checkedAt": "2026-11-19 06:38:21",
+    "checkedAt": "2026-11-19 11:51:03",
     "title": "Chrome Hearts",
     "url": "https://www.chromehearts.com/",
     "links": [
@@ -59,29 +59,25 @@
       "TERMS CA SUPPLY CHAIN ACT PRIVACY GENERAL CONTACT US © 2026 CHROME HEARTS LLC. ALL RIGHTS RESERVED"
     ],
     "htmlHash": "55bb56544136393a0232b731654de2cc62ac0a5936b75bd2ca16ef1cb53b9ab6",
-    "screenshotHash": "671c5bab5dd839c1e28efecb9b3cc7d3e9b2b58b110710c45f3ea327ab7b2650",
-    "aggregateHash": "2118bde059da9001b09d24e2f08fe6f4d2b78ded8c9907ddfe362387c174d40a"
+    "screenshotHash": "68e3afaf66c929fed9e682ce310a75d259567bce0fc1955d5757ade600fa21d7",
+    "aggregateHash": "388a6602415dfa66f43938c4705ae1c8fab1b63e94755feb4ce584c0d7358b2e"
   },
   "lastDiff": {
     "hasChanged": true,
     "reason": "CHANGED",
     "addedLinks": [],
-    "removedLinks": [
-      "Hoodie => https://www.chromehearts.com/hoodie"
-    ],
+    "removedLinks": [],
     "addedImages": [],
     "removedImages": [],
     "addedButtons": [],
-    "removedButtons": [
-      "Hoodie"
-    ],
+    "removedButtons": [],
     "addedHeadings": [],
     "removedHeadings": [],
     "addedImportantText": [],
     "removedImportantText": [],
-    "htmlChanged": true,
+    "htmlChanged": false,
     "screenshotChanged": true,
-    "summary": "links +0/-1 / buttons +0/-1 / html changed / screenshot changed"
+    "summary": "screenshot changed"
   },
-  "lastNotificationAt": "2026-11-19 06:38:21"
+  "lastNotificationAt": "2026-11-19 11:51:03"
 }
